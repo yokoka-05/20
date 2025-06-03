@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>自己紹介</title>
+  <style>
+    table {
+      border: 2px double lightblue;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th, td {
+      border: 1px solid lightblue;
+      padding: 10px;
+      text-align: center;
+    }
+
+    img {
+      width: 300px;
+      height: auto;
+      margin: 30px;
+    }
+
+    section {
+      border: 2px solid #ccc;
+      border-radius: 12px;
+      padding: 2.0rem;
+      margin: 2rem 0;
+      background: linear-gradient(to right, #f0f8ff, #e6f7ff);
+      background: none;
+    }
+
+    .image-row {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>自己紹介</h1>
+    <h3>～基礎ゼミナール～</h3>
+  </header>
+
+  <main>
+    <section>
+      <table>
+        <tr>
+          <th>名前</th>
+          <th>年齢</th>
+          <th>特技</th>
+          <th>趣味</th>
+          <th>大学生活</th>
+          <th>将来</th>
+        </tr>
+        <tr>
+          <td>横山 香寿美</td>
+          <td>18</td>
+          <td>テトリス</td>
+          <td>音楽を聴きながらゲーム</td>
+          <td>勉強、研究生活</td>
+          <td>高校教員</td>
+        </tr>
+      </table>
+      <img src="teto.jpg" alt="テトリスの画像">
+    </section>
+
+    <section>
+      <h2>情報学科の興味のある分野</h2>
+      <h3>データサイエンス・ビッグデータ</h3>
+      <p>
+        <strong>データサイエンスとは</strong><br>
+        膨大なデータから有益な情報や知見を引き出す学問。<br>
+        例：交通情報からの渋滞予測、医療分野での診断支援など。
+        <br><br>
+        <strong>ビッグデータとは</strong><br>
+        従来のデータベースでは扱いきれないほど大量のデータ。<br>
+        例：SNS投稿、Webアクセスログ、センサーデータなど。
+      </p>
+      <div class="image-row">
+        <img src="deta.jpg" alt="データサイエンスの画像">
+        <img src="bigde.jpg" alt="ビッグデータの画像">
+      </div>    
+    </section>
+  </main>
+</body>
+</html>
